@@ -7,10 +7,27 @@
     vertical-align: bottom
 }
 */
+a{
+    color: black;
+}
 
 .img-area{
-    position: absolute;
-    top: 240px;
-    width: 200px;
-    height: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+.search-bar{
+    position: relative;
+    position: center;
+    text-align: center;
+}
+.button-bar{
+    position: center;
+    text-align: center;
+    padding-top: 10px;;
+}
+.button{
+    background: #e2e1e1;
+    border: 15px #e2e1e1 solid;
+    margin: 12px;
+    border-radius: 5px;;
 }
