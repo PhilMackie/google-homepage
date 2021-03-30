@@ -32,13 +32,12 @@ a{
     text-align: center;
     padding-top: 10px;;
 }
-
-.button:hover{
-    padding: 15px;
-    margin: 24px;
-    border: 1px #5f6368 solid;
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #f2f2f2 !important;
+    border: 1px white solid!important;
     color: black!important;
 }
-.dtn{
-    background: #f2f2f2;
+.btn-primary:hover{
+    color: black!important;
+    border: 1px black solid!important;
 }
