@@ -58,8 +58,8 @@ a{
 /*Nav CSS */
 ul {
     list-style-type: none;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    /* padding: 10px; */
     overflow: hidden;
     background-color: white;
   }
@@ -98,4 +98,24 @@ ul {
 .fa-lg{
     color: grey!important;
     padding: 42px 10px 10px 10px;
+}
+/* topbar done */
+
+/*bottom-bar*/
+.bottom-bar-ul{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    height: 64px;
+}
+.bottom-bar-a{
+        color: #666;
+        padding: 20px;
+        font-size: 18px!important;
+}
+.bottom-bar-a:hover{
+    text-decoration: underline;
+    color: #666;
 }
